@@ -1,0 +1,27 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark:  #212121;;
+    --secondary-text-color-theme-dark:  #757575;
+    --primary-text-color-theme-light:  #FFFFFF;
+    --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3; 
+    --primary-bg-color:#FFFFFF;   
+ }
+ 
+  .link {
+    text-decoration: none;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  button {
+    font-family: inherit;
+    cursor: pointer;
+  }
