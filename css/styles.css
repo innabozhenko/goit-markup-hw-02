@@ -1,7 +1,7 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color-theme-dark:  #212121;;
+    --primary-text-color-theme-dark:  #212121;
     --secondary-text-color-theme-dark:  #757575;
     --primary-text-color-theme-light:  #FFFFFF;
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
@@ -24,4 +24,36 @@
   button {
     font-family: inherit;
     cursor: pointer;
+  }
+  .web-studio {
+    color:var(--primary-text-color-theme-dark) ;
+  }
+  .web-studio:hover {
+    color: var(--accent-color);
+  }
+  .page-navigation .link {
+    color: var(--primary-text-color-theme-dark);
+
+  }
+  /* Header */
+
+
+
+ 
+
+
+  h1 {
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+
+
   }
