@@ -9,12 +9,11 @@
     --primary-bg-color:#FFFFFF;   
  }
  
-  .link {
+  a {
     text-decoration: none;
   }
-  
-  .list {
-    list-style: none;
+  .link {
+      list-style-type: none;
   }
   
   img {
@@ -31,29 +30,34 @@
   .web-studio:hover {
     color: var(--accent-color);
   }
-  .page-navigation .link {
+  .menu-list .studio {
     color: var(--primary-text-color-theme-dark);
+  }
+  .menu-list .link:hover,
+  .menu-list .link:focus {
+    color: var(--accent-color);
+  }
+  .menu-contact-list .link {
+    color: var(--primary-text-color-theme-dark);
+}
+  .menu-contact-list .link:hover,
+  .menu-contact-list .link:focus {
+    color: var(--accent-color);
+  }
+/* Hero */
+.hero-title {
+  color: green;
+}
+/* Features */
+.feature-list .title{
+  color: var(--primary-text-color-theme-dark);
+} 
+/* Section */
 
+  .section-title {
+    color: var(--primary-text-color-theme-dark);
+  }
+  .hero-title {
+    color: var(--primary-text-color-theme-dark);
   }
   /* Header */
-
-
-
- 
-
-
-  h1 {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-letter-spacing: 0.06em;
-
-
-  }
