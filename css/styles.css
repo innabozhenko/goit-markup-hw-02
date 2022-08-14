@@ -7,12 +7,11 @@
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3; 
     --primary-bg-color:#FFFFFF; 
-    --button-primary
- }
+    }
 
  body {
- background-color:#FFFFFF;
- color:#212121;
+  background-color:var(--primary-bg-color);
+  color: var(--primary-text-color-theme-dark);
 
 }
  /*  */
@@ -34,6 +33,7 @@
   .button.primary {
   background-color:var(--accent-color);
   color: var(--primary-bg-color);
+  
   }
   .button.secondary {
     
