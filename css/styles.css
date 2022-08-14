@@ -1,14 +1,20 @@
 :root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-    --primary-text-color-theme-dark:  #212121;
+    --primary-font:'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
+    --primary-text-color-theme-dark:#212121;
     --secondary-text-color-theme-dark:  #757575;
     --primary-text-color-theme-light:  #FFFFFF;
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3; 
-    --primary-bg-color:#FFFFFF;   
+    --primary-bg-color:#FFFFFF; 
+     
  }
- 
+
+ body{
+  color: var(--primary-bg-color);
+  color: var(#FFFFFF) ;
+ }
+ /*  */
   a {
     text-decoration: none;
   }
@@ -19,13 +25,13 @@
   img {
     display: block;
   }
-  
-  button {
-    font-family: inherit;
+  /* Button */
+  .button {
+    color: var(--primary-bg-color)
     cursor: pointer;
   }
   .web-studio {
-    color:var(--primary-text-color-theme-dark) ;
+    color: var(--primary-text-color-theme-dark) ;
   }
   .web-studio:hover {
     color: var(--accent-color);
@@ -46,12 +52,18 @@
   }
 /* Hero */
 .hero-title {
-  color: green;
+  color: var(--primary-bg-color);
 }
 /* Features */
 .feature-list .title{
   color: var(--primary-text-color-theme-dark);
+.text {
+  color: var(--primary-text-color-theme-dark);
+}
+
+  
 } 
+
 /* Section */
 
   .section-title {
@@ -60,4 +72,7 @@
   .hero-title {
     color: var(--primary-text-color-theme-dark);
   }
-  /* Header */
+  /* About */
+  .about-list .title{
+    color: var(--primary-text-color-theme-dark)
+  }
