@@ -7,13 +7,14 @@
     --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3; 
     --primary-bg-color:#FFFFFF; 
-    --.button.primary
+    --button-primary
  }
 
- body{
-  color: var(--primary-bg-color);
-  color: var(#FFFFFF) ;
- }
+ body {
+ background-color:#FFFFFF;
+ color:#212121;
+
+}
  /*  */
   a {
     text-decoration: none;
@@ -75,21 +76,16 @@
 }
 
 /* Section */
-
   .section-title {
     color: var(--primary-text-color-theme-dark);
   }
-  .text{
+  .about-list.text,
+  .project-list.text{
     color: var(--primary-text-color-theme-dark);
   }
-  
-    .hero-title {
-    color: var(--primary-text-color-theme-dark);
-
-  
-
-  }
+    
   /* About */
-  .about-list .title{
+  .about-list .title,
+  .feature-list .title {
     color: var(--primary-text-color-theme-dark)
   }

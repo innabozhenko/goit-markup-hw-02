@@ -7,38 +7,43 @@
     <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" 
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-    <!-- Hero -->
+    <!--Header-->
     <header class="page-header">
-        <nav>
-            <a href="./index.html">WebStudio</a>
-            
-            <ul class="site-nav list">
-        <li>
-            <a href="./index.html" class="link">Студія</a>
+            <a class="web-studio" href="./index.html"   lang="en">WebStudio</a>
+            <nav class="page-navigation">
+            </nav>
+            <ul class="menu-list">
+        <li class="menu-item">
+            <a class="menu-link link" href="./index.html">Студія</a>
         </li>
-        <li>
-            <a href="./portfolio.html" class="link">Портфоліо</a>
+        <li class="menu-item">
+            <a class="menu-link link" href="./portfolio.html" class="link current">Портфоліо</a>
         </li>
-        <li>
-            <a href="#"class="link">Контакти</a></li>
+        <li class="menu-item">
+            <a class="menu-link link" href="#contacts">Контакти</a>
+        </li>
            </ul>
         </nav>
-             <ul>
-             <li>
-                 <a href="mailto:info@devstudio.com">info@devstudio.com</a> 
+             <ul class=" menu-contact-list">
+             <li class="menu-contact">
+                 <a   class="menu-link link" href="mailto:info@devstudio.com" class="button">info@devstudio.com</a> 
             </li>
-            <li>  
-                 <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="menu-contact">  
+                 <a  class="menu-link link"  href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
         </ul>
-</header>
+    </header>
 <main>
-<section>
-    <ul class="filters list">
+     <!-- Filters -->
+<section class="section" >
+    <ul class="filter-list">
         <li><a href="./index.html">Усі</a></li>
         <li><a href="#">Веб-сайти</a></li>
         <li><a href="#">Додатки</a></li>
@@ -46,76 +51,77 @@
         <li><a href="#">Маркетинг</a></li>
     </ul>
 </section>
-
-<section>
-    <h2 hi>Портфоліо</h2>
-    <ul>
+<!-- Projects -->
+<section class="section">
+    <h2 class="section-title" >Портфоліо</h2>
+    <ul class="project-list">
         <li>
             <img src="./images/11.img.jpg" alt="Чоловік і дві жінки"width="370">
-        <h3>Технокряк</h3>
-        <p>Веб-сайт</p>
+        <h3 class="title">Технокряк</h3>
+        <p class="text">Веб-сайт</p>
        </li>
        
        <li>
         <img src="./images/22.img.jpg" alt="Два хлопці грають в баскетбол"width="370">
-        <h3>Постер New Orlean vs Golden Star</h3>
-        <p>Дизайн</p>
+        <h3 class="title" lang="en">Постер New Orlean vs Golden Star</h3>
+        <p class="text">Дизайн</p>
        </li>
        <li>
         <img src="./images/33.img.jpg" alt="Фото риби"width="370">
-        <h3>Ресторан Seafood</h3>
-        <p>Додаток</p>
+        <h3 class="title" lang="en" >Ресторан Seafood</h3>
+        <p class="text">Додаток</p>
        </li>
        <li>
         <img src="./images/44.img.jpg" alt="Навушники"width="370">
-        <h3>Проєкт Prime</h3>
-        <p>Маркетинг</p>
+        <h3 class="title" lang="en">Проєкт Prime</h3>
+        <p class="text">Маркетинг</p>
        </li>
        <li>
         <img src="./images/55.img.jpg" alt="2 коробки"width="370">
-        <h3>Проєкт Boxes</h3>
-        <p>Додаток</p>
+        <h3 class="title" lang="en">Проєкт Boxes</h3>
+        <p class="text">Додаток</p>
        </li>
        <li>
         <img src="./images/66.img.jpg" alt="Kомп*ютер"width="370">
-        <h3>Inspiration has no Borders</h3>
-        <p>Веб-сайт</p>
+        <h3 class="title" lang="en">Inspiration has no Borders</h3>
+        <p class="text">Веб-сайт</p>
        </li>
        <li>
         <img src="./images/77.img.jpg" alt="Журнал з фото"width="370">
-        <h3>Видання Limited Edition</h3>
-        <p>Дизайн</p>
+        <h3 class="title" lang="en">Видання Limited Edition</h3>
+        <p class="text">Дизайн</p>
        </li>
        <li>
         <img src="./images/88.img.jpg" alt="Етикетка на мотузці"width="370">
-        <h3>Проєкт LAB</h3>
-        <p>Маркетинг</p>
+        <h3 class="title">Проєкт LAB</h3>
+        <p class="text">Маркетинг</p>
        </li>
        <li>
         <img src="./images/99.img.jpg" alt="Людина за компом"width="370">
-        <h3>Growing Business</h3>
-        <p>Додаток</p>
+        <h3 class="title" lang="en">Growing Business</h3>
+        <pclass="text">Додаток</p>
        </li>  
     </ul>
 </section>
 </main>
+<!-- FOOTER --> 
 <footer>
-    <a href="./index.html">WebStudio</a>
-    <address>
-    <ul>
+    <a href="./index.html" class="link" lang="en">WebStudio</a>
+    <address class="">
+    <ul class="list">
          <li>
             <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" 
             target="_blank" 
-            rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a>
+            rel="noopener noreferrer nofollow" class="menu-link link">м. Київ, пр-т Лесі Українки, 26</a>
          </li>
          <li>
-            <a href="mailto:info@example.com ">info@example.com</a>
+            <a href="mailto:info@example.com " class="menu-link link" c>info@example.com</a>
          </li>
          <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="menu-link link"class="menu-link link">+38 099 111 11 11</a>
          </li>
     </ul>
     </address>
  </footer>  
 </body>
-</html>
+</html> 
