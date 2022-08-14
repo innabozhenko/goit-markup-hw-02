@@ -13,6 +13,9 @@
   background-color:var(--primary-bg-color);
   color: var(--primary-text-color-theme-dark);
 
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
  /*  */
   a {
@@ -29,23 +32,40 @@
   .button {
     color: var(--accent-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    list-style-type: none;
   }
   .button.primary {
   background-color:var(--accent-color);
-  color: var(--primary-bg-color);
+  color:var(--primary-text-color-theme-light)
   
   }
   .button.secondary {
-    
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color-theme-dark);
   }
   .web-studio {
-    color: var(--primary-text-color-theme-dark) ;
+    color: var(--primary-text-color-theme-dark);
+    font-family:Raleway,;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    list-style-type: none;
   }
   .web-studio:hover {
     color: var(--accent-color);
   }
   .menu-list .studio {
     color: var(--primary-text-color-theme-dark);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    list-style-type: none;
+    
   }
   .menu-list .link:hover,
   .menu-list .link:focus {
@@ -58,6 +78,7 @@
 
   .menu-contact-list .link {
     color: var(--primary-text-color-theme-dark);
+    list-style-type: none;
 }
   .menu-contact-list .link:hover,
   .menu-contact-list .link:focus {
@@ -65,27 +86,47 @@
   }
 /* Hero */
 .hero-title {
-  color: var(--primary-bg-color);
+  color: var(--primary-text-color-theme-light);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
 }
-/* Features */
-.feature-list .title {
-  color: var(--primary-text-color-theme-dark);
+.work {
+  background: #2F303A;
 }
-.feature-list .text{
+/* Features, About,Project */
+.feature-list .title,
+.about-list .title
+{
   color: var(--primary-text-color-theme-dark);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+}
+.feature-list .text,
+.about-list.text,
+.project-list.text{
+  color: var(--primary-text-color-theme-dark);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  list-style-type: none;
 }
 
 /* Section */
   .section-title {
     color: var(--primary-text-color-theme-dark);
-  }
-  .about-list.text,
-  .project-list.text{
-    color: var(--primary-text-color-theme-dark);
-  }
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
     
-  /* About */
-  .about-list .title,
-  .feature-list .title {
-    color: var(--primary-text-color-theme-dark)
   }
+  
+  
+    
+  
+  
+ 
+  
