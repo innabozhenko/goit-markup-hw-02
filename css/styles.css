@@ -27,7 +27,8 @@
   }
   /* Button */
   .button {
-    color: var(--primary-bg-color)
+   
+    color: var(--accent-color);
     cursor: pointer;
   }
   .web-studio {
@@ -55,22 +56,27 @@
   color: var(--primary-bg-color);
 }
 /* Features */
-.feature-list .title{
-  color: var(--primary-text-color-theme-dark);
-.text {
+.feature-list .title {
   color: var(--primary-text-color-theme-dark);
 }
-
-  
-} 
+.feature-list .text{
+  color: var(--primary-text-color-theme-dark);
+}
 
 /* Section */
 
   .section-title {
     color: var(--primary-text-color-theme-dark);
   }
-  .hero-title {
+  .text{
     color: var(--primary-text-color-theme-dark);
+  }
+  
+    .hero-title {
+    color: var(--primary-text-color-theme-dark);
+
+  
+
   }
   /* About */
   .about-list .title{
