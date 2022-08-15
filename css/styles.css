@@ -20,12 +20,13 @@
   a {
     text-decoration: none;
   }
-  .link {
+  ul {
       list-style-type: none;
   }
   
   img {
     display: block;
+    
   }
   /* Button */
   .button {
@@ -116,11 +117,14 @@
   .section-title {
     color: var(--primary-text-color-theme-dark);
     font-weight: 700;
-    font-size: 14px;
+    font-size: 36px;
     line-height: 1.2;
     text-align: center;  
   }
-  
+  /* work */
+  .work {
+    color: var(--primary-text-color-theme-light);
+  }
   
     
   
