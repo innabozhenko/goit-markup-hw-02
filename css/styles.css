@@ -12,7 +12,7 @@
     }
 
  body {
-  background-color:var(--primary-bg-color);
+  font-family: inherit;
   color: var(--primary-text-color-theme-dark);
 
   font-family: Roboto, sans-serif;
@@ -43,7 +43,7 @@
     color: var(--primary-text-color-theme-dark)
 }
  .footer-logo {
-    color: violet
+    color:var(--primary-text-color-theme-light)
 }
   /* Button */
   .button {
@@ -65,24 +65,7 @@
 
   }
 
- 
-  .button.secondary {
-    background-color: var(--primary-bg-color);
-    color: var(--primary-text-color-theme-dark);
-  }
-  .logo {
-    color: var(--primary-text-color-theme-dark);
-    font-family:Raleway,;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-   
-  }
-  .logo:hover {
-    color: var(--accent-color);
-  }
   .menu-list {
-    color: var(--primary-text-color-theme-dark);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
@@ -97,7 +80,6 @@
   }
   .menu-contact-list .link {
     color: var(--primary-text-color-theme-dark);
-   font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -108,14 +90,12 @@
   }
 /* Hero */
 .hero-title {
-  color:var(--primary-text-color-theme-dark);
+  color: #2F303A;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
-}l
-  
-
+}
 /* Features, About,Project */
 .feature-list .title,
 .about-list .title
@@ -143,13 +123,14 @@
     line-height: 1.2;
     text-align: center;  
   }
-  /* work */
-  .work {
-    color: var(--primary-text-color-theme-light);
-  }
+  
   /* Footer */
+  .page-footer{
+    background: #2F303A;
+  }
   .list-contacts{
-font-family: inherit;
+
+color: var(--primary-text-color-theme-light);
 font-weight: 400;
 font-size: 14px;
 line-height:1.7;
