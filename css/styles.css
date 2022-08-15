@@ -58,15 +58,12 @@
   .button.primary {
   background-color:var(--accent-color);
   color:var(--primary-text-color-theme-light);
-
-  
    }
 
   .button.primary:hover{
-    color: var(--accent-color);
-    
+    color: var(--accent-color);  
   }
-
+  /* Header */
   .menu-list {
     font-weight: 500;
     font-size: 14px;
@@ -131,12 +128,11 @@
     background: #2F303A;
   }
   .address.contact{
-
-color: var(--primary-text-color-theme-light);
-font-weight: 400;
-font-size: 14px;
-line-height:1.7;
-font-style: normal;
+  color: var(--primary-text-color-theme-light);
+  font-weight: 400;
+  font-size: 14px;
+  line-height:1.7;
+  font-style: normal;
   }
 .address.contact.link:hover,
 .address.contact.link:focus{
