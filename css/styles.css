@@ -8,6 +8,7 @@
     --accent-color: #2196F3; 
     --primary-bg-color:#FFFFFF; 
     --secondary-bg-color: #2F303A;
+    --font-family: inherit;
     }
 
  body {
@@ -82,22 +83,18 @@
   }
   .menu-list {
     color: var(--primary-text-color-theme-dark);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
-   
-    
+    line-height: 1.14; 
+    font-family: inherit;
   }
   .menu-list .link:hover,
   .menu-list .link:focus {
-    color: var(--accent-color);  
+  color: var(--accent-color);  
   } 
   .menu-list .link .current{
     color: var(--accent-color);
-    
   }
-
   .menu-contact-list .link {
     color: var(--primary-text-color-theme-dark);
    font-family: 'Roboto';
@@ -111,7 +108,6 @@
   }
 /* Hero */
 .hero-title {
-  font-family: Roboto, sans-serif;
   color:var(--primary-text-color-theme-dark);
   font-weight: 900;
   font-size: 44px;
@@ -153,15 +149,15 @@
   }
   /* Footer */
   .list-contacts{
-font-family: 'Roboto';
+font-family: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height:1.7;
-
+font-style: normal;
   }
   .list-contacts .link:hover,
   .list-contacts .link:focus{
-    color: var(--accent-color);
+   color: var(--accent-color);
   }
 
   
