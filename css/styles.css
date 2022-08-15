@@ -47,7 +47,7 @@
 }
   /* Button */
   .button {
-    color: var(--accent-color);
+    color:var(--accent-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 14px;
@@ -57,12 +57,14 @@
   }
   .button.primary {
   background-color:var(--accent-color);
-  color:var(--primary-text-color-theme-light)
+  color:var(--primary-text-color-theme-light);
+
+  
    }
 
   .button.primary:hover{
     color: var(--accent-color);
-
+    
   }
 
   .menu-list {
@@ -128,7 +130,7 @@
   .page-footer{
     background: #2F303A;
   }
-  .list-contacts{
+  .address.contact{
 
 color: var(--primary-text-color-theme-light);
 font-weight: 400;
@@ -136,8 +138,8 @@ font-size: 14px;
 line-height:1.7;
 font-style: normal;
   }
-  .list-contacts .link:hover,
-  .list-contacts .link:focus{
+.address.contact.link:hover,
+.address.contact.link:focus{
    color: var(--accent-color);
   }
 
