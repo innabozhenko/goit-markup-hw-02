@@ -12,10 +12,10 @@
     }
 
  body {
-  font-family: inherit;
-  color: var(--primary-text-color-theme-dark);
-
   font-family: Roboto, sans-serif;
+  color: var(--primary-text-color-theme-dark);
+  font-family: inherit;
+  
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -32,19 +32,21 @@
   }
   /* Logo */
   .logo-accent {
-    font-family:Roboto, sans-serif; 
-    font-weight: 700;
+    
+    color: var(--accent-color);
+
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--accent-color)
-}
-.header-logo {
-    color: var(--primary-text-color-theme-dark)
-}
- .footer-logo {
+    
+  }
+  .header-logo {
+      color: var(--primary-text-color-theme-dark)
+  }
+  .footer-logo {
+    font-family:var(--primary-font);
     color:var(--primary-text-color-theme-light)
-}
+  }
   /* Button */
   .button {
     color:var(--accent-color);
@@ -56,8 +58,9 @@
     font-family: inherit;
   }
   .button.primary {
-  background-color:var(--accent-color);
-  color:var(--primary-text-color-theme-light);
+    font-family: inherit
+    background-color: var(--accent-color);
+    color:var(--primary-text-color-theme-light);
    }
 
   .button.primary:hover{
@@ -89,16 +92,28 @@
   }
 /* Hero */
 .hero-title {
-  color: #2F303A;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
+    color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+}    
+.hero-title.visually-hidden{
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px
 }
+
 /* Features, About,Project */
 .feature-list .title,
-.about-list .title
-{
+.about-list .title{
   color: var(--primary-text-color-theme-dark);
   font-weight: 700;
   font-size: 14px;
@@ -115,6 +130,14 @@
 }
 
 /* Section */
+.section.about{ 
+position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1446px;
+background: #F5F4FA;
+}
   .section-title {
     color: var(--primary-text-color-theme-dark);
     font-weight: 700;
@@ -127,16 +150,16 @@
   .page-footer{
     background: #2F303A;
   }
-  .address.contact{
+  .list-contacts.contact{
   color: var(--primary-text-color-theme-light);
   font-weight: 400;
   font-size: 14px;
   line-height:1.7;
-  font-style: normal;
+  
   }
-.address.contact.link:hover,
-.address.contact.link:focus{
-   color: var(--accent-color);
+  .list-contacts.contact.link:hover,
+  .list-contacts.contact.link:focus{
+    color: var(--accent-color);
   }
 
   
