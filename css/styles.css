@@ -27,39 +27,41 @@
   }
   
   img {
-    display: block;
-    
+    display: block; 
+  }
+  .button{
+    font-family: inherit;
+    cursor: pointer;
   }
   /* Logo */
   .logo-accent {
     font-family: Raleway;
     font-style: normal;
-    font-weight: 700;;
+    font-weight: 700;
     color: var(--accent-color);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
+    cursor: pointer;
   }
   .header-logo {
-      color: var(--primary-text-color-theme-dark)
+    color: var(--primary-text-color-theme-dark)
   }
   .footer-logo {
-    font-family:var(--primary-font);
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
     color:var(--primary-text-color-theme-light)
+
   }
   /* Button */
   .button {
     color:var(--accent-color);
-    cursor: pointer;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.2;
-    cursor: pointer;
-    font-family: inherit;
+    line-height: 1.2;  
   }
   .button.primary {
-    font-family: inherit;
     background-color: var(--accent-color);
     color:var(--primary-text-color-theme-light);
    }
@@ -151,16 +153,33 @@ background: #F5F4FA;
   .page-footer{
     background: #2F303A;
   }
-  .list-contacts.contact{
-  color: var(--primary-text-color-theme-light);
-  font-weight: 400;
-  font-size: 14px;
-  line-height:1.7;
   
-  }
-  .list-contacts.contact.link:hover,
-  .list-contacts.contact.link:focus{
-    color: var(--accent-color);
+
+ 
+
+
+.loc-link,
+.phone-link,
+.mail-link{
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2205px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+font-style: normal;
+} 
+.loc-link {
+  color: #FFFFFF;
+}
+.phone-link,
+.mail-link{
+color: rgba(255, 255, 255, 0.6);
+}
+.mail-link:hover,
+.mail-link:focus{
+color: var(--accent-color);
   }
 
   
