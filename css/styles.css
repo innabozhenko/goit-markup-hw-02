@@ -61,10 +61,16 @@
     font-size: 14px;
     line-height: 1.2;  
   }
-  
-  .button.primary:hover{
+  .button:hover{
     color:var(--accent-color)
-  }
+    }
+    .button.link:hover,
+    .button.link:focus{
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color);
+    }
+
+  
   /* Header */
   .menu-link {
     font-weight: 500;
@@ -150,10 +156,6 @@ background: #F5F4FA;
   .page-footer{
     background: #2F303A;
   }
-  
-
- 
-
 
 .loc-link,
 .phone-link,
@@ -178,6 +180,13 @@ color: rgba(255, 255, 255, 0.6);
 .mail-link:focus{
 color: var(--accent-color);
   }
+.phone-link:hover,
+.phone-link:focus{
+  color: var(--accent-color);
+}
+
+  
+
 
   
   
