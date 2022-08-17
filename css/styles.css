@@ -2,19 +2,18 @@
     --primary-font:Roboto, sans-serif;
     --secondary-font:Raleway, sans-serif;
     --primary-text-color-theme-dark:#212121;
-    --secondary-text-color-theme-dark:  #757575;
-    --primary-text-color-theme-light:  #FFFFFF;
-    --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
+    --secondary-text-color-theme-dark:#757575;
+    --primary-text-color-theme-light:#FFFFFF;
+    --secondary-text-color-theme-light:rgba(255, 255, 255, 0.6);
     --accent-color: #2196F3; 
     --primary-bg-color:#FFFFFF; 
-    --secondary-bg-color: #2F303A;
-    --font-family: inherit;
+    --secondary-bg-color:#2F303A;
+   
     }
 
  body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color-theme-dark);
-  font-family: inherit;
   
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -56,25 +55,22 @@
   }
   /* Button */
   .button {
-    color:var(--accent-color);
+    background-color: var(--accent-color);
+    color:var(--primary-text-color-theme-light);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;  
   }
-  .button.primary {
-    background-color: var(--accent-color);
-    color:var(--primary-text-color-theme-light);
-   }
-
+  
   .button.primary:hover{
-    color: var(--accent-color);  
+    color:var(--accent-color)
   }
   /* Header */
-  .menu-list {
+  .menu-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
-    font-family: inherit;
+    color: var(--primary-text-color-theme-dark);
   }
   .menu-list .link:hover,
   .menu-list .link:focus {
@@ -94,25 +90,26 @@
     color: var(--accent-color);
   }
 /* Hero */
-.hero-title {
-    color: #2F303A;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    text-align: center;
-}    
-.hero-title.visually-hidden{
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px
+.hero-fon{
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background: #2F303A;
 }
+.hero-title {
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height:1.4;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+   } 
 
 /* Features, About,Project */
 .feature-list .title,
