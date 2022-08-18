@@ -189,12 +189,12 @@ background: #F5F4FA;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
-    text-align: center;  
+    text-align: center;
   }
   
   /* Footer */
-  .page-footer{
-    background: #2F303A;
+.page-footer{
+background: #2F303A;
   }
 .loc-link,
 .phone-link,
