@@ -28,9 +28,9 @@
   img {
     display: block; 
   }
-  .button{
-    font-family: inherit;
+  button {
     cursor: pointer;
+    
   }
   /* Logo */
   .logo-accent {
@@ -54,11 +54,47 @@
 
   }
   /* Button */
-  
-  
-    
-  
-
+  .list-btn{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em; 
+    color: var(--primary-text-color-theme-dark);
+    background-color: var(--primary-bg-color);
+  }
+  .portfolio-link .link{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color);
+  }
+.service-link .link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-theme-light);
+  background-color: var(--accent-color);
+}
+.portfolio-link .link:hover,
+.portfolio-link .link:focus{
+  background-color: var(--accent-color);
+}
+.service-link .link:hover,
+.service-link .link:focus{
+  background-color: var(--accent-color);
+}
   
   /* Header */
   .menu-link {
@@ -107,18 +143,7 @@ background: #2F303A;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
    } 
-   .hero-title.visually-hidden {
-    position: absolute;
-      white-space: nowrap;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      border: 0;
-      padding: 0;
-      clip: rect(0 0 0 0);
-      clip-path: inset(50%);
-      margin: -1px;
-  }
+ 
 /* About */
 .about-list{
   background-color: #F5F4FA;
