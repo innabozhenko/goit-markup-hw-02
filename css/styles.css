@@ -65,7 +65,7 @@
     color: var(--primary-text-color-theme-dark);
     background-color: var(--primary-bg-color);
   }
-  .portfolio-link .link{
+  .portfolio-link{
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -76,7 +76,7 @@
     color: var(--primary-text-color-theme-light);
     background-color: var(--accent-color);
   }
-.service-link .link {
+.service-link {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -87,8 +87,8 @@
   color: var(--primary-text-color-theme-light);
   background-color: var(--accent-color);
 }
-.portfolio-link .link:hover,
-.portfolio-link .link:focus{
+.portfolio-link:hover,
+.portfolio-link:focus{
   background-color: var(--accent-color);
 }
 .service-link .link:hover,
@@ -102,6 +102,7 @@
     font-size: 14px;
     line-height: 1.14; 
     color: var(--primary-text-color-theme-dark);
+    font-weight: 500;
   }
   .menu-list .link:hover,
   .menu-list .link:focus {
@@ -195,7 +196,6 @@ background: #F5F4FA;
   .page-footer{
     background: #2F303A;
   }
-
 .loc-link,
 .phone-link,
 .mail-link{
