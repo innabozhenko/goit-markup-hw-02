@@ -52,41 +52,35 @@
 
   }
   /* Button */
-  .list-btn{
+.button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  cursor: pointer;
+  color: var(--primary-text-color-theme-dark);
+  background-color: var(--primary-bg-color);
+}
+  .button.service{
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.9;
+    line-height:1.8;
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em; 
-    color: var(--primary-text-color-theme-dark);
-    background-color: var(--primary-bg-color);
-  }
-  .portfolio-link{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    cursor: pointer;
     color: var(--primary-text-color-theme-light);
     background-color: var(--accent-color);
   }
-.service-link {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--primary-text-color-theme-light);
-  background-color: var(--accent-color);
-}
+
+  .button.filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.6;
+    cursor: pointer;
+    color: var(--primary-text-color-theme-light);
+    background-color: var(--accent-color);
+  }
+  
 .portfolio-link:hover,
 .portfolio-link:focus{
 background-color: var(--accent-color);
@@ -98,14 +92,14 @@ background-color: var(--accent-color);
 }
   
   /* Header */
-  .menu-list {
+  .menu-list .menu-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
     color: var(--primary-text-color-theme-dark);
     
   }
-  .menu-contact-list{
+  .menu-list .menu-contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
