@@ -13,8 +13,6 @@
 
  body {
   font-family: Roboto, sans-serif;
-  color: var(--primary-text-color-theme-dark);
-  background-color: var(--primary-bg-color);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -100,12 +98,18 @@ background-color: var(--accent-color);
 }
   
   /* Header */
-  .menu-link {
+  .menu-list {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14; 
     color: var(--primary-text-color-theme-dark);
+    
+  }
+  .menu-contact-list{
     font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-text-color-theme-dark);
   }
   .menu-list .link:hover,
   .menu-list .link:focus {
@@ -159,14 +163,23 @@ background: #2F303A;
 }
   
 /* Features, About,Project */
-.feature-list .title,
-.about-list .title{
-  color: var(--primary-text-color-theme-dark);
+.feature-list.title{
   font-weight: 700;
   font-size: 14px;
-  line-height: 2;
+  line-height:2;
   text-transform: uppercase;
-
+  color: var(--primary-text-color-theme-dark);
+}
+.about-list .title{
+   font-weight: 500;
+   font-size: 16px;
+   line-height:1.2;
+   color: var(--primary-text-color-theme-dark);
+}
+.project-list.title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height:1.8;
 }
 .visually-hidden {
   position: absolute;
@@ -180,9 +193,6 @@ background: #2F303A;
     clip-path: inset(50%);
     margin: -1px;
 }
-
-
-
 .feature-list .text,
 .about-list.text,
 .project-list .text{
@@ -202,14 +212,8 @@ left: 0px;
 top: 1446px;
 background: #F5F4FA;
 }
-  .section-title {
-    color: var(--primary-text-color-theme-dark);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.2;
-    text-align: center;
-  }
-  
+
+
   /* Footer */
 .page-footer{
 background: #2F303A;
