@@ -1,3 +1,11 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
     --primary-font:Roboto, sans-serif;
     --secondary-font:Raleway, sans-serif;
@@ -19,11 +27,22 @@
       margin-top: 0;
       margin-bottom: 0;
     }
+    /* Container */
+.container{
+  width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
  body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+/* Утиліти */
+
   a {
     text-decoration: none;
   }
@@ -33,11 +52,13 @@
   
   img {
     display: block; 
+    max-width: 100%;
+    height: auto
   }
   button {
-    cursor: pointer;
-    
+    cursor: pointer; 
   }
+  
   /* Logo */
   .logo-accent {
     font-family: Raleway,sans-serif;
@@ -57,11 +78,16 @@
     font-style: normal;
     font-weight: 700;
     color:var(--primary-text-color-theme-light);
-
   }
   /* Button */
   .service-btn-link {
+    display: inline-block;
     position: absolute;
+    min-width: 152px;
+    padding: 10px 32px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid transparent;
     font-weight: 700;
     font-size: 16px;
     line-height:1.8;
@@ -79,8 +105,10 @@
     background-color:var(--accent-color-dark);
   }
 .portfolio-btn-link{
-    width: 73px;
-    height: 71.78px;
+    display: inline-block;
+    min-width: 73px;
+    text-align: center;
+    border: 1px solid transparent;
     left: 512px;
     top: 126px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -97,10 +125,9 @@
       background-color:var(--accent-color-light);
 }
   .modal-btn-link{
-    width: 81px;
-    height: 49.11px;
     left: 615px;
     top: 137.33px;
+    border: 1px solid transparent;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -118,6 +145,36 @@
   
   
   /* Header */
+  .page-header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-item.menu-link {
+  display: flex;
+  }
+
+  .menu-list .menu-item{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+ 
+  }
+  .menu-list{
+    display: flex;
+    margin-left: 70px;
+  }
+
+  .menu-list .menu-item + .menu-item {
+    margin-left: 40px;
+  }
+  .menu-contact-list{
+    display: flex;
+    margin-left: auto;
+  }
+  .menu-contact-list .menu-contact + .menu-contact {
+    margin-left: 50px;
+  }
    .menu-link,
    .menu-tl-link{
     width: 64px;
@@ -143,7 +200,7 @@
     color: var(--accent-color);
   }
 /* Hero */
-.hero-fon{
+.section-hero{
 width: 1600px;
 height: 600px;
 left: 0px;
@@ -151,37 +208,34 @@ top: 80px;
 background: #2F303A;
 }
 .hero-title {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 280px;
-  font-style: normal;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  
   font-weight: 900;
   font-size: 44px;
   line-height:1.4;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   text-transform: uppercase;
   color: var(--primary-text-color-theme-light);
    } 
  
 /* About */
+.section-about{
+
+background-color: var(--accent-color-light);
+}
 .about-list{
-  background-color: #F5F4FA;
+display: flex;
+gap: 30px;
 
 }
-
 .about-item{
  background-color:var(--primary-bg-color)
 }
   
-/* Features, About,Project */
+/*  COMPONENTS */
 .title-feature{
   width: 270px;
   height: 16px;
@@ -194,12 +248,12 @@ background: #2F303A;
   color: var(--primary-text-color-theme-dark);
 }
 .title-about{
-  height: 19px;
   left: 286px;
   top: 1922px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
   color: var(--primary-text-color-theme-dark);
 }
 .title-project{
@@ -213,8 +267,8 @@ background: #2F303A;
   color: var(--primary-text-color-theme-dark);
 }
 .section-title{
+margin-bottom: 50px;
 width: 366px;
-height: 42px;
 left: 617px;
 top: 966px;
 font-weight: 700;
@@ -234,13 +288,12 @@ color: var(--primary-text-color-theme-dark);
   color: var(--secondary-text-color-theme-dark);
   }
 .text-about{
-  width: 76px;
- 
   left: 912px;
   top: 1951px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
   color: var(--secondary-text-color-theme-dark);
 }
 .text-project{
@@ -267,6 +320,11 @@ color: var(--secondary-text-color-theme-dark);
 }
 
 /* Section */
+.section-about{
+background:var(--accent-color-light);
+
+
+}
 
   /* Footer */
 .page-footer{
